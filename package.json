@@ -1,0 +1,13 @@
+{
+  "name": "@vitallyze/shared",
+  "private": true,
+  "description": "Código TypeScript compartilhado entre apps Vitallyze, consumido como submódulo git (sem build, sem publicação).",
+  "scripts": {
+    "test": "vitest run",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
