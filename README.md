@@ -10,9 +10,9 @@ inclui este repositório como **submódulo git** em `app/src/shared` e importa d
 
 ## Mudar algo
 
-1. Editar aqui (ou dentro de `app/src/shared` de qualquer app, que é um checkout deste repo), com teste.
+1. Editar **só neste repo**, com teste (nunca dentro de `app/src/shared` de um app; ADR-006 da KB).
 2. `npm test` e `npm run type-check`; push na `main` (o CI roda os dois).
-3. Em cada app que usa: `git submodule update --remote app/src/shared`, rodar a suíte do app e commitar o novo ponteiro.
+3. Em cada app que usa: `git submodule update --remote app/src/shared`, rodar a suíte do app e commitar o novo ponteiro (`chore(shared): <módulo> @ <sha>`).
 
 ## Usar num app novo
 
