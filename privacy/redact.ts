@@ -1,6 +1,6 @@
 /**
  * Redator de dados pessoais (LGPD). Fonte única, consumida como submódulo git em `app/src/shared`
- * pelo smartinn-app (logger central, exportação do conjunto de avaliação, texto antes da IA) e pelo
+ * pelo anido-app (logger central, exportação do conjunto de avaliação, texto antes da IA) e pelo
  * bot-platform (todo console.* do processo).
  */
 

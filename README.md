@@ -6,7 +6,7 @@ inclui este repositório como **submódulo git** em `app/src/shared` e importa d
 
 | Módulo | O que faz | Usado por |
 |---|---|---|
-| `privacy/redact.ts` | Redator de dados pessoais (LGPD): telefone, e-mail, CPF/RG/passaporte e chaves sensíveis em objetos de log | smartinn-app (logger, exportação de avaliação, texto antes da IA), bot-platform (console) |
+| `privacy/redact.ts` | Redator de dados pessoais (LGPD): telefone, e-mail, CPF/RG/passaporte e chaves sensíveis em objetos de log | anido-app (logger, exportação de avaliação, texto antes da IA), bot-platform (console) |
 
 ## Mudar algo
 
